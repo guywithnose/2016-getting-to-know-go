@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	file, err := os.Open("go.tpp")
+	file, err := os.Open("slides")
 	if err != nil {
 		log.Fatal(err)
 	}

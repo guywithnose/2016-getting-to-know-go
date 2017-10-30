@@ -1,6 +1,9 @@
 <html>
 <head></head>
 <body>
+    {{ if .Message }}
+        <span>{{ .Message }}</span>
+    {{ end }}
     <form method="POST">
         <input type="text" name="data">
         <button>Submit</button>

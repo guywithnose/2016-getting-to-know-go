@@ -44,7 +44,7 @@
 --center * Well Documented
 
 --boldon
---center * Concurency
+--center * Concurrency
 
 --boldon
 --center * Community
@@ -72,24 +72,16 @@ Editor Integrations (Optional)
 --include-file functions/main.go
 --newpage Multiple Return Values
 --include-file functionsMultipleReturn/main.go
---newpage Multiple Named Return Values
---include-file functionsMultipleReturn2/main.go
 --newpage Errors
 --include-file errors/main.go
---newpage Zero Values
---include-file zeroValues/main.go
---beginshelloutput
-false, 0, '', 0.000000, '0'
---endshelloutput
---endoutput
+--newpage Defer
+--include-file defer/main.go
 --newpage Loops
 --## There is no while
 --include-file loops/main.go
 --newpage Tests
 --include-file tests/library.go
 --include-file tests/library_test.go
---newpage Arrays
---include-file arrays/main.go
 --newpage Slices
 --include-file slices/main.go
 --newpage Maps
@@ -101,8 +93,6 @@ false, 0, '', 0.000000, '0'
 --include-file switch/main.go
 --newpage Switch Fallthrough
 --include-file switchFallthrough/main.go
---newpage Switch True
---include-file switchFizzBuzz/main.go
 --newpage Structs
 --include-file structs/main.go
 --newpage Objects
@@ -113,10 +103,6 @@ false, 0, '', 0.000000, '0'
 --include-file interfaces/interface.go
 --newpage Interfaces
 --include-file interfaces/main.go
---newpage Type Assertion
---include-file typeAssertion/main.go
---newpage Type Switch
---include-file typeSwitch/main.go
 --newpage Concurrency
 --include-file concurrency/main.go
 --newpage WaitGroups
@@ -125,10 +111,6 @@ false, 0, '', 0.000000, '0'
 --include-file channels/main.go
 --newpage Select
 --include-file select/main.go
---newpage Timers
---include-file timers/main.go
---newpage Select Non-Blocking
---include-file selectNoBlock/main.go
 --newpage Tools
 * gofmt (goimports)
 * golint
@@ -143,10 +125,6 @@ false, 0, '', 0.000000, '0'
 * Exported functions start with capital letter
 * go get
 * dep
---newpage Defer
---include-file defer/main.go
---newpage Web/HTTP
---include-file web/main.go
 --newpage Resources
 https://gobyexample.com
 https://tour.golang.org
